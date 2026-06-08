@@ -1,7 +1,7 @@
-# EX 51 C program to reverse a string.
+# EX 51 Write a C Program to store a String and print the same.
 ## DATE:
 ## AIM:
-To write a C program to reverse a string.
+To Write a C Program to store a String and print the same.
 
 ## Algorithm
 Start
@@ -21,33 +21,18 @@ Increment i and decrement j.
 Repeat steps 5 and 6 until i is greater than or equal to j.
 ## Program:
 ```
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char str[100], reversed[100];
-    int length, i;
-
-    printf("Enter a string: ");
-    scanf("%s", str);  // Reads a single word
-
-    length = strlen(str);
-
-    // Reverse manually
-    for (i = 0; i < length; i++) {
-        reversed[i] = str[length - i - 1];
-    }
-    reversed[length] = '\0'; // Null-terminate the reversed string
-
-    printf("Reversed string: %s\n", reversed);
-
-    return 0;
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    scanf("%s",a);
+    printf("%s",a);
 }
 ```
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/ef1d247d-8395-42b8-95aa-7312b978ca42)
+<img width="1012" height="287" alt="image" src="https://github.com/user-attachments/assets/af4234eb-d400-45da-b809-075842bdbd41" />
 
 
 ## Result:
